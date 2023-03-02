@@ -1,0 +1,8 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .1rem .5rem;
+    margin: .5rem 1rem;
+    background-color: aliceblue;
+}
