@@ -5,7 +5,7 @@ import UsersList from './Components/Users/UsersList';
 // import Card from './Components/UI/Card';
 
 function App() {
-  const [data, setData]=useState([{name:"harry",age:23}]);
+  const [data, setData]=useState([{name:"harry",age:23,college:'prmceam'}]);
 
   const addUserHandler = (userData) => {
     setData(prevData => {
